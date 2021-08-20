@@ -7,7 +7,10 @@ A simple chat made with golang and gRPC
 [gRPC](https://grpc.io/) is a rpc framework made by Google.
 
 Your goal is to delivery a simple and high performance communication tool.
-With gRPC we can build distributed systems with any programming language, and then, generate "stubs" that give to us a contracts to communicate between these services (a great advantage over REST)
+With gRPC we can build distributed systems with any programming language, and then, generate "stubs" that give us a contract to communicate between these services (a great advantage over REST)
+
+These contracts are generated through [Protocol Buffers](https://developers.google.com/protocol-buffers) (commonly known as **protobufs**)
+*Protobufs* are a definition and serializable language made by Google. It's like a XML, but much more flexible and smaller.
 
 ---
 **Bidirectional Streaming**
